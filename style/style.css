@@ -1,0 +1,38 @@
+/*ÉLÉMENTS CACHÉS, SERVANT POUR LE RESPONSIVE DESIGN*/
+#responsive_pic
+{
+    display: none;
+}
+
+#responsive_about
+{
+    display: none;
+}
+
+/*ÉLÉMENTS POUR L'AFFICHAGE BUREAU*/
+
+/*STRUCTURE GÉNÉRALE DE LA PAGE*/
+body
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+
+main
+{
+    width: 70%;
+    height: auto;
+    background-color: #E1F5FE;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    background-color: #42A5F5;
+}
