@@ -8,7 +8,7 @@ Transformer son C.V. en site Web respectant la charte graphique imposée (Voir l
 **OBJECTIFS DU PROJET:**
 * Transformation du C.V. en site Web;
 * Création du repositoire GitHub où repose le code du projet et créer le lien y donnant accès;
-* Versionenr le code du projet sur GitHub;
+* Versionner le code du projet sur GitHub;
 * Création d'un lien dirigeant vers la page Web du C.V. hébergée en ligne par GitHub pour présente le projet.
 
 
