@@ -42,6 +42,11 @@ h1, h2
     text-transform: uppercase;
 }
 
+a:link
+{
+    text-decoration: none;
+}
+
 /*PARAMÈTRES PARTIE GAUCHE*/
 aside img
 {
@@ -143,3 +148,83 @@ aside h2
 {
     text-transform: capitalize;
 } 
+
+#formation, #exp, #recommandation
+{
+    margin: 0px 50px 10px 50px;
+    padding: 0px 25px 0px 0px;
+}
+
+#formation header, #exp header, #recommandation header
+{
+    border-bottom: 3px solid #0D47A1;
+    margin-bottom: 35px;
+}
+
+.fa-user-graduate, .fa-user-tie, .fa-user-edit
+{
+    float: left;
+    padding: 0px 5px;
+    margin: 0px 15px 0px 2px;
+    font-size: 30px;
+}
+
+#formation h2, #exp h2, #recommandation h2
+{
+    margin-bottom: 10px;
+}
+/*Difficulté d'ajustement pour les éléments des parties FORM & EXP*/
+#formation ul, #exp ul
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: -25px;
+}
+
+
+#formation li, #exp li
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 25px 0px 0px 5px;
+}
+/*Fin difficultés*/
+.fa-dot-circle
+{
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+.fa-circle
+{
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.d-p_container
+{
+    padding: 0px;
+}
+
+.date
+{
+    width: 180%;
+}
+/*STOP*/
+#recommandation ul
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding: 15px 0px 10px 0px;
+margin-top: -25px;
+list-style-type: none;
+}
+
+#recommandation address
+{
+    margin: 0px 100px 0px 5px;
+}
