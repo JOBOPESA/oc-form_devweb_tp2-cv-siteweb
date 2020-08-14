@@ -207,6 +207,7 @@ aside h2
 .d-p_container
 {
     padding: 0px;
+    min-width: 200px;
 }
 
 .date
@@ -214,6 +215,17 @@ aside h2
     width: 180%;
 }
 /*STOP*/
+.description_container
+{
+    align-items: flex-start;
+    text-align: start;
+}
+
+.enterprise
+{
+    text-transform: uppercase;
+}
+
 #recommandation ul
 {
 display: flex;
@@ -227,4 +239,9 @@ list-style-type: none;
 #recommandation address
 {
     margin: 0px 100px 0px 5px;
+}
+
+#recommandation
+{
+    margin: 0px 0px 50px 50px;
 }
