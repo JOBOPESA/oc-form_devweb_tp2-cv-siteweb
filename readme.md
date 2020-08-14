@@ -24,5 +24,6 @@ Transformer son C.V. en site Web respectant la charte graphique imposée (Voir l
 
 **LIVRABLES**
 * Lien vers le repositoire GitHub:<br/>
+https://github.com/JOBOPESA/oc_form-devweb_tp2_cv-siteweb.git
+* Lien direct vers la page du site Web:<br/>
 https://jobopesa.github.io/oc_form-devweb_tp2_cv-siteweb/
-* Lien direct vers la page du site Web:<br/> https://github.com/JOBOPESA/oc_form-devweb_tp2_cv-siteweb.git
