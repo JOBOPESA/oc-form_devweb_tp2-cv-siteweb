@@ -752,7 +752,7 @@ list-style-type: none;
 
     #formation, #exp, #recommandation 
     {
-        margin: 0px 50px 35px 50px;
+        margin: 0px 25px 32px 25px;
         padding: 20px 0px 0px 0px;
         font-size: 80%;
     }
@@ -765,14 +765,26 @@ list-style-type: none;
         padding: 25px 0px 0px 5px;
     }
 
+    #exp div i
+    {
+    display: block;
+    position: absolute;
+    padding-left: 10px;
+    }
+
     #recommandation ul
     {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 0px 0px 75px;
+    padding: 40px 0px 0px 75px;
     margin-top: -25px;
     list-style-type: none;
+    }
+
+    #recommandation li
+    {
+    margin-bottom: 35px;
     }
 
     #recommandation address
