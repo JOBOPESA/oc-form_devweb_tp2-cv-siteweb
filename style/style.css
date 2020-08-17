@@ -431,21 +431,6 @@ list-style-type: none;
         list-style-type: none;
     }
 
-    .leisure div 
-    {
-        padding: 5px 10px 30px 10px;
-    }
-
-    .leisure i 
-    {
-        border: solid 2px black;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 35px;
-        height: 35px;
-        width: 45px;
-    }
-
     aside
     {
     display: flex;
@@ -492,10 +477,25 @@ list-style-type: none;
         display: flex;
         justify-content: center;   
     }
+
+    .leisure div 
+    {
+        padding: 5px 10px 30px 10px;
+    }
+
+    .leisure i 
+    {
+        border: solid 2px black;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 35px;
+        height: 35px;
+        width: 45px;
+    }
 }
 
-/*CCSS RESPONSIVE pour Smartphone*/
-/* Petits terminaux (Grands smartphones et petites tablettes, 600px and up)*/
+/*CSS RESPONSIVE pour smartphone et tablettes*/
+/* Moyens-petits terminaux (Grands smartphones et petites tablettes, 600px and up)*/
 @media only screen and (min-width: 600px) and (max-width: 768px)
 {
     body
@@ -559,12 +559,40 @@ list-style-type: none;
     padding: 5px 0px 5px 0px;
     }
     
+    #responsive_about h2, .leisure h2, .contact h2
+    {
+        font-size: 100%;
+    }
+
     #responsive_about p
     {
-    padding: 20px 100px 25px 100px;
+    padding: 15px 100px 15px 100px;
     text-align: center;
     background-color: #42A5F5;
     margin: auto;
+    font-size: 80%;
+    }
+
+    #formation, #exp, #recommandation 
+    {
+        margin: 0px 50px 35px 50px;
+        padding: 20px 0px 0px 0px;
+        font-size: 80%;
+    }
+
+    #recommandation ul
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0px 0px 75px;
+    margin-top: -25px;
+    list-style-type: none;
+    }
+
+    #recommandation address
+    {
+    margin: 0px 100px 0px 5px;
     }
 
     aside
@@ -581,13 +609,236 @@ list-style-type: none;
     {
         display: none;
     }
+
+    .contact_list 
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px;
+        padding: 10px 0px 0px 0px;
+        justify-content: space-around;
+        font-size: 75%;
+    } 
+
+    .contact
+    { 
+    margin-bottom: -35px;
+    height: 170px;
+    margin-top: -20px;
+    }
+
+    .contact_list
+    {
+        font-size: 75%;
+    }
+
+    .contact_list i
+    {
+        padding: 2px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;   
+    }
+
+    .leisure div 
+    {
+        padding: 5px 10px 30px 10px;
+    }
+
+    .leisure i 
+    {
+        border: solid 2px black;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 30px;
+        height: 30px;
+        width: 38px;
+    }
 }
 
-
-
-    /* Extra small devices (phones, 600px and down) */
+/*CSS pour smartphones*/
+/*Petits terminaux (Smartphones moyenne et petite taille, 600px et moins) */
 @media only screen and (max-width: 600px) 
 {
-    .example {background: red;}
+    body
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color: #EEEEEE;
+    }
+    
+    main
+    {
+        width: auto;
+    }
+
+    #main_header 
+    {
+    margin: 35px 50px 35px 50px;
+    text-align: center;
+    font-size: 80%;
+    }
+
+    #job_name
+    {
+        display: block;
+        margin: 20px;
+    }
+
+    #responsive_pic
+    {
+    display: contents;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color:#42A5F5;
+    }
+
+    #responsive_pic img
+    { 
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 45%;
+    border-radius: 50%;
+    border: solid #0D47A1 5px;
+    }
+
+    #responsive_about
+    {
+        display: contents;
+        font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #responsive_about h2
+    {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: #64A082;
+    background-color: #222;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: x-large;
+    padding: 5px 0px 5px 0px;
+    }
+    
+    #responsive_about h2, .leisure h2, .contact h2
+    {
+        font-size: 100%;
+    }
+
+    #responsive_about p
+    {
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    background-color: #42A5F5;
+    margin: auto;
+    font-size: 80%;
+    }
+
+    #formation, #exp, #recommandation 
+    {
+        margin: 0px 50px 35px 50px;
+        padding: 20px 0px 0px 0px;
+        font-size: 80%;
+    }
+
+    #formation li, #exp li 
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 25px 0px 0px 5px;
+    }
+
+    #recommandation ul
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0px 0px 75px;
+    margin-top: -25px;
+    list-style-type: none;
+    }
+
+    #recommandation address
+    {
+    margin: 0px 100px 0px 5px;
+    }
+
+    aside
+    {
+        width: auto;
+    }
+
+    aside img
+    {
+        display: none;
+    }
+
+    aside .about
+    {
+        display: none;
+    }
+
+    .contact_list 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px;
+        padding: 10px 0px 0px 0px;
+        align-content: space-around;
+        font-size: 75%;
+    } 
+
+    .contact
+    { 
+    margin: 150px 0px;
+    height: 170px;
+    margin-top: -20px;
+    }
+
+    .contact_list
+    {
+        font-size: 75%;
+    }
+
+    .contact_list i
+    {
+        padding: 2px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;   
+    }
+
+    .contact_list p 
+    {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .leisure div 
+    {
+        padding: 5px 10px 30px 10px;
+    }
+
+    .leisure i 
+    {
+        border: solid 2px black;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 30px;
+        height: 30px;
+        width: 38px;
+    }
 }
   
