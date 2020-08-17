@@ -291,6 +291,12 @@ list-style-type: none;
     width: 90%;
     margin: auto;
     background-color: #EEEEEE;
+    font-size: 90%;
+    }
+
+    #recommandation
+    {
+        font-size: 95%;
     }
 }
 
@@ -486,9 +492,96 @@ list-style-type: none;
         display: flex;
         justify-content: center;   
     }
+}
 
+/*CCSS RESPONSIVE pour Smartphone*/
+/* Petits terminaux (Grands smartphones et petites tablettes, 600px and up)*/
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+    body
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color: #EEEEEE;
+    }
+    
+    main
+    {
+        width: auto;
+    }
 
+    #main_header 
+    {
+    margin: 35px 50px 35px 50px;
+    text-align: center;
+    font-size: 80%;
+    }
 
+    #responsive_pic
+    {
+    display: contents;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color:#42A5F5;
+    }
+
+    #responsive_pic img
+    { 
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 22%;
+    border-radius: 50%;
+    border: solid #0D47A1 5px;
+    }
+
+    #responsive_about
+    {
+        display: contents;
+        font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #responsive_about h2
+    {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: #64A082;
+    background-color: #222;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: x-large;
+    padding: 5px 0px 5px 0px;
+    }
+    
+    #responsive_about p
+    {
+    padding: 20px 100px 25px 100px;
+    text-align: center;
+    background-color: #42A5F5;
+    margin: auto;
+    }
+
+    aside
+    {
+        width: auto;
+    }
+
+    aside img
+    {
+        display: none;
+    }
+
+    aside .about
+    {
+        display: none;
+    }
+}
 
 
 
@@ -498,8 +591,3 @@ list-style-type: none;
     .example {background: red;}
 }
   
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
-{
-    .example {background: green;}
-}
