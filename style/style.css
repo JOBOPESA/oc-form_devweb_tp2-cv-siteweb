@@ -1,4 +1,6 @@
+/* CSS RESPONSIVE Grands terminaux (997px à 1200px et plus)*/
 /*ÉLÉMENTS CACHÉS, SERVANT POUR LE RESPONSIVE DESIGN*/
+
 #responsive_pic
 {
     display: none;
@@ -9,9 +11,8 @@
     display: none;
 }
 
-/*ÉLÉMENTS POUR L'AFFICHAGE BUREAU*/
-
 /*STRUCTURE GÉNÉRALE DE LA PAGE*/
+
 body
 {
     display: flex;
@@ -35,17 +36,31 @@ aside
     width: 30%;
     height: auto;
     background-color: #42A5F5;
+    font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1, h2
 {
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a
+{
+    color: black;
 }
 
 a:link
 {
     text-decoration: none;
+
 }
+
+a:hover
+{
+    color:#80CBC4;
+}
+
 
 /*PARAMÈTRES PARTIE GAUCHE*/
 aside img
@@ -90,6 +105,11 @@ aside h2
     font-size: 20px;
 }
 
+.contact_list p
+{
+    font-size: 105%;
+}
+
 .about
 {
     flex: 1;
@@ -99,6 +119,7 @@ aside h2
 .about p
 {
     margin: 40px;
+    font-size: 110%;
 }
 
 .leisure div
@@ -173,13 +194,14 @@ aside h2
 {
     margin-bottom: 10px;
 }
-/*Difficulté d'ajustement pour les éléments des parties FORM & EXP*/
+
 #formation ul, #exp ul
 {
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin-top: -25px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -190,40 +212,49 @@ aside h2
     margin: auto;
     padding: 25px 0px 0px 5px;
 }
-/*Fin difficultés*/
+
 .fa-dot-circle
 {
     padding-right: 10px;
-    padding-top: 1px;
+    padding-top: 4px;
 }
 
 .fa-circle
 {
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 7px;
     font-size: 10px;
 }
 
 .d-p_container
 {
-    padding: 0px;
+    padding-top: 1px;
     min-width: 200px;
+    font-size: 90%;
 }
 
 .date
 {
     width: 180%;
 }
-/*STOP*/
+
 .description_container
 {
     align-items: flex-start;
     text-align: start;
 }
 
-.enterprise
+.description_container p
+{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.post
 {
     text-transform: uppercase;
+    font-size: 90%;
+    line-height: 2em;
 }
 
 #recommandation ul
@@ -244,4 +275,231 @@ list-style-type: none;
 #recommandation
 {
     margin: 0px 0px 50px 50px;
+    font-family: 'Lucida Sans Unicode','Lucida Sans','Lucida Grande','Arial',sans-serif;
+    font-size: 80%;
+}
+
+
+/*CSS RESPONSIVE POUR ORDINATEUR MOYEN*/
+/*Terminaux intermédiaire*/
+@media only screen and (min-width:1024px) and (max-width:1280px)
+{
+    body
+    {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: auto;
+    background-color: #EEEEEE;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1024px)
+{
+    body
+    {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 95%;
+    margin: auto;
+    background-color: #EEEEEE;
+    }
+
+    #formation, #exp, #recommandation 
+    {
+    margin: 50px 50px 20px 50px;
+    padding: 4px 25px 0px 0px;
+    }
+
+    #formation ul, #exp ul
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: -25px;
+    font-size: 90%;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .about
+    {
+        font-size: 90%;
+    }
+
+    .contact_list
+    {
+        font-size: 90%;
+    }
+
+}
+
+/*CSS RESPONSIVE POUR TABLETTE*/
+/* Terminaux médians (Tablette, 768px à 992px)*/
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+    body
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color: #EEEEEE;
+    }
+    
+    main
+    {
+    width: 100%;
+    height: auto;
+    background-color: #E1F5FE;
+    }
+
+    #main_header 
+    {
+    margin: 40px 50px 40px 50px;
+    text-align: center;
+    }
+
+    #responsive_pic
+    {
+    display: contents;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color:#42A5F5;
+    }
+
+    #responsive_pic img
+    { 
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 22%;
+    border-radius: 50%;
+    border: solid #0D47A1 5px;
+    }
+
+    #responsive_about
+    {
+        display: contents;
+        font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #responsive_about h2
+    {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: #64A082;
+    background-color: #222;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: x-large;
+    padding: 5px 0px 5px 0px;
+    }
+    
+    #responsive_about p
+    {
+    padding: 20px 100px 25px 100px;
+    text-align: center;
+    background-color: #42A5F5;
+    margin: auto;
+    }
+
+    #formation, #exp, #recommandation 
+    {
+        margin: 50px 50px 20px 50px;
+        padding: 4px 25px 0px 0px;
+        font-size: 85%;
+    }
+
+    #recommandation ul 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px 0px 10px 100px;
+        margin-top: -25px;
+        list-style-type: none;
+    }
+
+    .leisure div 
+    {
+        padding: 5px 10px 30px 10px;
+    }
+
+    .leisure i 
+    {
+        border: solid 2px black;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 35px;
+        height: 35px;
+        width: 45px;
+    }
+
+    aside
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #42A5F5;
+    font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    aside img
+    {
+        display: none;
+    }
+
+    aside .about
+    {
+        display: none;
+    }
+
+    .contact_list 
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px;
+        padding: 10px 0px 0px 0px;
+        justify-content: space-around;
+        font-size: 90%;
+    } 
+
+    .contact
+    { 
+    margin-bottom: -20px;
+    height: 170px;
+    margin-top: -20px;
+    }
+
+    .contact_list i
+    {
+        padding: 2px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;   
+    }
+
+
+
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .example {background: red;}
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .example {background: green;}
 }
