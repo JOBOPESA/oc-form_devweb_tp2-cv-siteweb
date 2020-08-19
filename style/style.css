@@ -113,7 +113,7 @@ aside h2
 .about
 {
     flex: 1;
-    text-align: center;
+    text-align: justify;
 }
 
 .about p
@@ -169,6 +169,11 @@ aside h2
 {
     text-transform: capitalize;
 } 
+
+main .enterprise
+{
+    font-weight: bold;
+}
 
 #formation, #exp, #recommandation
 {
@@ -658,7 +663,7 @@ list-style-type: none;
 
 /*CSS pour smartphones*/
 /*Petits terminaux (Smartphones moyenne et petite taille, 600px et moins) */
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 600px) 
 {
     body
     {
@@ -759,6 +764,11 @@ list-style-type: none;
         font-size: 150%;
     }
 
+    main li .fas, main li .far
+    {
+        display: none;
+    }
+
     #formation li, #exp li 
     {
         display: flex;
@@ -779,7 +789,7 @@ list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px 0px 0px 75px;
+    padding: 40px 0px 0px 0px;
     margin-top: -25px;
     list-style-type: none;
     }
