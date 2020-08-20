@@ -240,7 +240,7 @@ main .enterprise
 
 .date
 {
-    width: 180%;
+    width: 100%;
 }
 
 .description_container
@@ -394,8 +394,8 @@ list-style-type: none;
 
     #responsive_about
     {
-        display: contents;
-        font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: contents;
+    font-family: 'Trebuchet MS','Arial','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     #responsive_about h2
@@ -428,11 +428,11 @@ list-style-type: none;
     #recommandation ul 
     {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 15px 0px 10px 100px;
-        margin-top: -25px;
-        list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px 0px 10px 0px;
+    margin-top: -25px;
+    list-style-type: none;
     }
 
     aside
@@ -764,11 +764,6 @@ list-style-type: none;
         font-size: 150%;
     }
 
-    main li .fas, main li .far
-    {
-        display: none;
-    }
-
     #formation li, #exp li 
     {
         display: flex;
@@ -779,19 +774,24 @@ list-style-type: none;
 
     #exp div i
     {
-    display: block;
-    position: absolute;
-    padding-left: 10px;
+        display: block;
+        position: absolute;
+        padding-left: 10px;
+    }
+
+    #formation li i, #exp li i 
+    {
+        display: none;
     }
 
     #recommandation ul
     {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px 0px 0px 0px;
-    margin-top: -25px;
-    list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0px 0px 0px;
+        margin-top: -25px;
+        list-style-type: none;
     }
 
     #recommandation li
