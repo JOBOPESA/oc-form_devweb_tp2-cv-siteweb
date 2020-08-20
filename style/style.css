@@ -759,9 +759,37 @@ list-style-type: none;
         font-size: 80%;
     }
 
-    #formation h2, #exp h2, #recommandation h2
+    #formation header, #exp header, #recommandation header 
+    {
+        border-bottom: 3px solid #0D47A1;
+        margin-bottom: 35px;
+        display: flex;
+    }
+
+    #formation header .fas
+    {
+        margin: 15px 0px 0px 0px;
+    }
+
+    #exp header .fas 
+    {
+        margin: 31px 0px 0px -5px;
+    }
+
+    #formation h2
     {
         font-size: 150%;
+        margin: 15px 10px 10px 10px;
+    }
+
+    #exp h2
+    {
+        margin: 15px 10px 5px 45px;
+    }
+
+    #recommandation h2
+    {
+        margin: 15px 0px 0px -10px;
     }
 
     #formation li, #exp li 
@@ -784,14 +812,22 @@ list-style-type: none;
         display: none;
     }
 
+    .fa-user-edit
+    {
+        float: inline-start;
+        padding: 0px 0px;
+        margin: 15px 25px 2px 2px;
+        font-size: 30px;
+    }
+
     #recommandation ul
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 40px 0px 0px 0px;
-        margin-top: -25px;
-        list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
+    margin-top: -25px;
+    list-style-type: none;
     }
 
     #recommandation li
