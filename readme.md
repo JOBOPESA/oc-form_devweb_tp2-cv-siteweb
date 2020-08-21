@@ -2,7 +2,7 @@
 
 Second projet de la formation Développeur Web d'OPENCLASSROOMS.
 
-Transformer son C.V. en site Web respectant la charte graphique imposée (Voir le fichier image "exemple-cv_oc").
+Transformer son C.V. en site Web respectant la charte graphique imposée (Voir le fichier image [exemple-cv_oc](https://raw.githubusercontent.com/JOBOPESA/oc_form-devweb_tp2_cv-siteweb/master/exemple_modele-cv.png)).
 
 
 📌 **OBJECTIFS DU PROJET:**
