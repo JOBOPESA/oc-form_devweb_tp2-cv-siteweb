@@ -1,6 +1,6 @@
-🗃 Formation OPENCLASSROOMS - Développeur Web<br/>📝 Projet N°2 - Transformer son C.V. en site Web
+🗃 #Formation OPENCLASSROOMS - Développeur Web<br/>📝 #Projet N°2 - Transformer son C.V. en site Web
 
-Second projet de la formation Développeur Web d'OPENCLASSROOMS.
+##Second projet de la formation Développeur Web d'OPENCLASSROOMS.
 
 Transformer son C.V. en site Web respectant la charte graphique imposée (Voir le fichier image [exemple-cv_oc](https://raw.githubusercontent.com/JOBOPESA/oc_form-devweb_tp2_cv-siteweb/master/exemple_modele-cv.png)).
 
